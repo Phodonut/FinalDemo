@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{710D945F-B861-4167-A72F-F9BC5AA25B37}" SchemaVersion="85">
+	<AudioObjects>
+		<WorkUnit Name="Default Work Unit" ID="{710D945F-B861-4167-A72F-F9BC5AA25B37}" PersistMode="Standalone">
+			<ChildrenList>
+				<Sound Name="SoundFX" ID="{B6D20F3B-0B02-45B0-820A-4B5950A90576}" ShortID="349855993">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{6570914D-9083-4CB5-B0C2-03D80E73F2D1}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{162F2EBC-22B5-4CAE-BE34-63D46C11E91A}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<SourcePlugin Name="test_laser" ID="{CE466755-6624-4962-A872-34552840419A}" ShortID="403207529" PluginName="test_laser" CompanyID="64" PluginID="3877">
+							<PropertyList>
+								<Property Name="base_frequency" Type="Real32">
+									<RTPCList>
+										<RTPC Name="" ID="{5A92C5DA-B8F8-4BAD-AEC6-F59E72D88B57}" ShortID="909682155">
+											<ReferenceList>
+												<Reference Name="ControlInput">
+													<ObjectRef Name="param_Frequency" ID="{3E741714-1044-4313-88B1-BB5365F43E89}" WorkUnitID="{3FAF704B-EA8B-4ED0-82E7-4156B38A9510}"/>
+												</Reference>
+											</ReferenceList>
+											<Curve Name="" ID="{C0CC536D-D489-4C65-8EFC-155988B0BF81}">
+												<PropertyList>
+													<Property Name="Flags" Type="int32" Value="1"/>
+												</PropertyList>
+												<PointList>
+													<Point>
+														<XPos>2000</XPos>
+														<YPos>2000</YPos>
+														<Flags>5</Flags>
+													</Point>
+													<Point>
+														<XPos>10000</XPos>
+														<YPos>10000</YPos>
+														<Flags>37</Flags>
+													</Point>
+												</PointList>
+											</Curve>
+										</RTPC>
+									</RTPCList>
+								</Property>
+								<Property Name="trigger" Type="Real32" Value="0.14"/>
+							</PropertyList>
+							<Language>SFX</Language>
+						</SourcePlugin>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="test_laser" ID="{CE466755-6624-4962-A872-34552840419A}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="CricketFX" ID="{A0B75CA0-78D3-4E1E-9199-2521B93ADCD2}" ShortID="90017935">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{6570914D-9083-4CB5-B0C2-03D80E73F2D1}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{162F2EBC-22B5-4CAE-BE34-63D46C11E91A}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<SourcePlugin Name="cricket_patchv4" ID="{B937C325-7E9A-4489-B066-38E2E5E2B6D7}" ShortID="667779763" PluginName="cricket_patchv4" CompanyID="64" PluginID="20677">
+							<PropertyList>
+								<Property Name="cricket_trigger" Type="Real32">
+									<RTPCList>
+										<RTPC Name="" ID="{0C176163-AFC2-498B-B298-5D3A2674EB0C}" ShortID="612459201">
+											<ReferenceList>
+												<Reference Name="ControlInput">
+													<ObjectRef Name="param_cricket_on" ID="{D0EAF2F5-1EAA-4AB7-8F02-9B9CF9417806}" WorkUnitID="{3FAF704B-EA8B-4ED0-82E7-4156B38A9510}"/>
+												</Reference>
+											</ReferenceList>
+											<Curve Name="" ID="{622376B9-323D-4C21-82D4-A96CF0C9F0C6}">
+												<PropertyList>
+													<Property Name="Flags" Type="int32" Value="1"/>
+												</PropertyList>
+												<PointList>
+													<Point>
+														<XPos>0</XPos>
+														<YPos>0</YPos>
+														<Flags>5</Flags>
+													</Point>
+													<Point>
+														<XPos>100</XPos>
+														<YPos>1</YPos>
+														<Flags>37</Flags>
+													</Point>
+												</PointList>
+											</Curve>
+										</RTPC>
+									</RTPCList>
+								</Property>
+								<Property Name="cricket_volume" Type="Real32">
+									<RTPCList>
+										<RTPC Name="" ID="{08EF5A89-F0B2-48FC-A82B-0207D0D476E7}" ShortID="560566359">
+											<ReferenceList>
+												<Reference Name="ControlInput">
+													<ObjectRef Name="param_cricket_volume" ID="{A07D5809-E99B-4A5F-8A78-5DD5542AB0B4}" WorkUnitID="{3FAF704B-EA8B-4ED0-82E7-4156B38A9510}"/>
+												</Reference>
+											</ReferenceList>
+											<Curve Name="" ID="{179D5665-26FF-43C2-99CF-C0061B2D6246}">
+												<PropertyList>
+													<Property Name="Flags" Type="int32" Value="1"/>
+												</PropertyList>
+												<PointList>
+													<Point>
+														<XPos>0</XPos>
+														<YPos>0</YPos>
+														<Flags>5</Flags>
+													</Point>
+													<Point>
+														<XPos>0.1</XPos>
+														<YPos>0.1</YPos>
+														<Flags>37</Flags>
+													</Point>
+												</PointList>
+											</Curve>
+										</RTPC>
+									</RTPCList>
+								</Property>
+							</PropertyList>
+							<Language>SFX</Language>
+						</SourcePlugin>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="cricket_patchv4" ID="{B937C325-7E9A-4489-B066-38E2E5E2B6D7}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+			</ChildrenList>
+		</WorkUnit>
+	</AudioObjects>
+</WwiseDocument>

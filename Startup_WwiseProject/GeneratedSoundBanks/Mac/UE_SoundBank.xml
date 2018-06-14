@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Mac" BasePlatform="Mac" SchemaVersion="11" SoundbankVersion="128">
+	<RootPaths>
+		<ProjectRoot>C:\Users\rhark_000\Desktop\Final_Demo_6_12\Startup_WwiseProject\</ProjectRoot>
+		<SourceFilesRoot>C:\Users\rhark_000\Desktop\Final_Demo_6_12\Startup_WwiseProject\.cache\Mac\</SourceFilesRoot>
+		<SoundBanksRoot>C:\Users\rhark_000\Desktop\Final_Demo_6_12\Startup_WwiseProject\GeneratedSoundBanks\Mac\</SoundBanksRoot>
+		<ExternalSourcesInputFile></ExternalSourcesInputFile>
+		<ExternalSourcesOutputRoot>C:\Users\rhark_000\Desktop\Final_Demo_6_12\Startup_WwiseProject\GeneratedSoundBanks\Mac</ExternalSourcesOutputRoot>
+	</RootPaths>
+	<SoundBanks>
+		<SoundBank Id="3969640585" Language="SFX">
+			<ObjectPath>\SoundBanks\Default Work Unit\UE_SoundBank</ObjectPath>
+			<ShortName>UE_SoundBank</ShortName>
+			<Path>UE_SoundBank.bnk</Path>
+			<IncludedEvents>
+				<Event Id="3953014829" Name="Play_CricketFX" ObjectPath="\Events\Default Work Unit\Play_CricketFX"/>
+				<Event Id="2115772865" Name="Play_SoundFX" ObjectPath="\Events\Default Work Unit\Play_SoundFX"/>
+			</IncludedEvents>
+		</SoundBank>
+	</SoundBanks>
+</SoundBanksInfo>

@@ -1,0 +1,13 @@
+Event	ID	Name			Wwise Object Path	Notes
+	2115772865	Play_SoundFX			\Default Work Unit\Play_SoundFX	
+	3953014829	Play_CricketFX			\Default Work Unit\Play_CricketFX	
+
+Game Parameter	ID	Name			Wwise Object Path	Notes
+	2087838439	param_Frequency			\Default Work Unit\param_Frequency	
+	2937046545	param_cricket_volume			\Default Work Unit\param_cricket_volume	
+	4035971452	param_cricket_on			\Default Work Unit\param_cricket_on	
+
+Source plug-ins	ID	Name	Type		Wwise Object Path	Notes
+	403207529	test_laser	test_laser		\Actor-Mixer Hierarchy\Default Work Unit\SoundFX\test_laser	
+	667779763	cricket_patchv4	cricket_patchv4		\Actor-Mixer Hierarchy\Default Work Unit\CricketFX\cricket_patchv4	
+

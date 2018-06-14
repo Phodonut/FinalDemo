@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{151E39E8-BC77-46F4-BDEF-09684945B807}" SchemaVersion="85">
+	<Events>
+		<WorkUnit Name="Default Work Unit" ID="{151E39E8-BC77-46F4-BDEF-09684945B807}" PersistMode="Standalone">
+			<ChildrenList>
+				<Event Name="Play_SoundFX" ID="{54A1E70B-72FC-4CBF-B9FD-02116DAA10F4}">
+					<ChildrenList>
+						<Action Name="" ID="{736B64CC-B1E8-4941-8BDA-095839AB6597}" ShortID="844462699">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="SoundFX" ID="{B6D20F3B-0B02-45B0-820A-4B5950A90576}" WorkUnitID="{710D945F-B861-4167-A72F-F9BC5AA25B37}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_CricketFX" ID="{BCFCEB42-2197-4242-8957-BB51082616B5}">
+					<ChildrenList>
+						<Action Name="" ID="{5CB1621D-185E-4DF8-BDCC-66499008954C}" ShortID="378313662">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="CricketFX" ID="{A0B75CA0-78D3-4E1E-9199-2521B93ADCD2}" WorkUnitID="{710D945F-B861-4167-A72F-F9BC5AA25B37}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>
